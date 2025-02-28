@@ -1,0 +1,80 @@
+// #footer {
+//   a {
+//     text-decoration: none;
+//     color: gray;
+//   }
+//   ul {
+//     list-style: none;
+//     padding: 0;
+//     margin: 0;
+//   }
+
+//   p {
+//     font-size: 14px;
+//   }
+
+//   .logos {
+//     position: relative;
+//     &::before {
+//       content: url(/images/Group\ 404.png);
+//       position: absolute;
+//       top: 40px;
+//     }
+//   }
+// }
+
+#header {
+  width: 100%;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 4vw;
+    font-weight: 700;
+    line-height: 1.2;
+    background: #5efce8;
+    background: linear-gradient(to right, #5efce8 0%, #736efe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    font-size: 1.2vw;
+    line-height: 1.5;
+    font-weight: 400;
+    color: rgba(166, 166, 166, 1);
+  }
+
+  a {
+    display: flex;
+    justify-content: center;
+    .img-btn {
+      width: 50px;
+      height: 50px;
+      border: 1px dotted #736efe;
+      border-radius: 50%;
+      padding: 10px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: 600px;
+    h1 {
+      font-size: 6vw;
+      line-height: 1.1;
+    }
+    p {
+      font-size: 3.5vw;
+    }
+    a {
+      .img-btn {
+        width: 40px;
+        height: 40px;
+        padding: 8px;
+      }
+    }
+  }
+}

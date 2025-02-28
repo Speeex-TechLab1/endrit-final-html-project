@@ -335,6 +335,328 @@ body {
   }
 }
 
+//============================ABOUT.HTML=============================
+
+//========================HEADER-ABOUT CSS===========================
+
+#header-about {
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+    background: #ffbbe6;
+    background: linear-gradient(to right, #ffbbe6 0%, #5ccaff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+//========================SECTION ABOUT CSS=========================
+
+#about {
+  background-color: white;
+  padding: 50px 0;
+
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 75px;
+    color: #151a25;
+  }
+  h2 {
+    font-size: 42px;
+    line-height: 52px;
+    background: #5efce8;
+    background: linear-gradient(to right, #5efce8 0%, #736efe 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #151a25;
+  }
+}
+
+//---------------------VALUES CSS----------------------
+
+#values {
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 75px;
+
+    position: relative;
+
+    &::before {
+      content: "CLEAN CODE";
+      font-size: 10px;
+      color: #ffbbe6;
+      position: absolute;
+      top: 60px;
+    }
+
+    &::after {
+      content: url(/images/Mask\ group.png);
+      position: absolute;
+      top: -70px;
+      left: 600px;
+
+      z-index: 1;
+    }
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+
+    width: 540px;
+    height: 90px;
+  }
+  img {
+    width: 600px;
+    height: 365px;
+    position: relative;
+    top: 40px;
+  }
+}
+
+//====================MEET TEAM CSS======================
+#meetTeam {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 65px;
+  }
+
+  h3 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+  img {
+    border-radius: 18px;
+    position: relative;
+    right: 50px;
+  }
+  span {
+    position: relative;
+
+    &::before {
+      content: url(/images/Rectangle\ 875.png);
+      position: absolute;
+      top: -120px;
+      right: -180px;
+    }
+  }
+}
+
+//=======================WEWORK CSS=========================
+
+#weWork {
+  margin-top: 40px;
+  background-color: white;
+
+  h1 {
+    margin-right: 80px;
+  }
+}
+
+//===================FORM CSS===========================
+
+#form {
+  button {
+    width: 200px;
+    height: 70px;
+    border-radius: 8px;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+  }
+}
+
+//==============================SERVICES.HTML=================
+
+//======================DIVERSE SERVICES CSS=================
+
+#diverse-services {
+  background-image: url(/images/Meet.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65%;
+
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+
+    margin-top: 20%;
+    margin-bottom: 20%;
+
+    background: #ffbbe6;
+    background: linear-gradient(to right, #ffbbe6 0%, #5ccaff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+//=====================BUSSINES CSS===========================
+
+#bussiness {
+  background-image: url(/images/Meet.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65%;
+
+  h3 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+
+    background: #ffbbe6;
+    background: linear-gradient(to right, #ffbbe6 0%, #5ccaff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+//=============================BRANDING CSS=====================
+
+#branding {
+  margin-top: 120px;
+  h2 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 70px;
+
+    background: #ffbbe6;
+    background: linear-gradient(to right, #ffbbe6 0%, #5ccaff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    position: relative;
+
+    &::before {
+      content: url(/images/01.png);
+      position: absolute;
+      left: -120px;
+      top: 20px;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    color: white;
+
+    position: relative;
+    top: 40px;
+    right: 80px;
+  }
+
+  img {
+    width: 600px;
+    height: 330px;
+  }
+
+  h3 {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 70px;
+    color: white;
+  }
+  .first-title {
+    position: relative;
+    left: 65px;
+
+    &::before {
+      content: url(/images/02.png);
+      position: absolute;
+      top: 12px;
+      left: -120px;
+    }
+  }
+  .second-title {
+    position: relative;
+    left: 65px;
+
+    &::before {
+      content: url(/images/03.png);
+      position: absolute;
+      top: 12px;
+      left: -120px;
+    }
+  }
+  .third-title {
+    position: relative;
+    left: 65px;
+
+    &::before {
+      content: url(/images/04.png);
+      position: absolute;
+      top: 12px;
+      left: -120px;
+    }
+  }
+}
+
+//====================CONTACT.HTML================================
+
+//====================CONTACT CSS=================================
+
+#contact {
+  h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 70px;
+
+    background: #ffbbe6;
+    background: linear-gradient(to right, #ffbbe6 0%, #5ccaff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  small {
+    color: white;
+
+    position: relative;
+    top: 40px;
+  }
+
+  .graySmall {
+    color: gray;
+  }
+}
+
 //Media Queries==========================================
 
 @media (max-width: 600px) {
@@ -380,19 +702,24 @@ body {
         left: 240%;
       }
     }
+
+    .c1 {
+      position: relative;
+      right: 32px;
+    }
     .c-display-1 {
       display: none;
     }
   }
 
   #story {
-    height: 148%;
+    height: 136%;
     h2 {
       font-size: 28px;
       margin-top: -10px;
     }
     p {
-      width: 520px;
+      width: 450px;
 
       position: relative;
 
@@ -411,12 +738,12 @@ body {
   }
 
   .img-1 {
-    width: 230px !important;
-    height: 410px !important;
+    width: 190px !important;
+    height: 350px !important;
   }
   .img-2 {
-    width: 210px !important;
-    height: 410px !important;
+    width: 190px !important;
+    height: 350px !important;
   }
 
   .imgPos {
@@ -430,11 +757,11 @@ body {
       display: flex;
       flex-direction: column;
 
-      width: 500px !important;
+      width: 420px !important;
       height: 420px !important;
 
       position: relative;
-      left: -32% !important;
+      left: -45% !important;
     }
 
     h2 {
@@ -462,7 +789,7 @@ body {
     }
 
     img {
-      width: 440px;
+      width: 380px;
       position: relative;
       right: 50%;
       top: 8%;
@@ -470,6 +797,22 @@ body {
   }
 
   #projects {
+    margin-bottom: -280px;
+    h2 {
+      font-size: 28px;
+      position: relative;
+
+      &::before {
+        content: url(/images/arrow-LR.svg);
+        position: absolute;
+        top: 380%;
+      }
+    }
+
+    p {
+      width: 450px;
+    }
+
     height: 220%;
     .imgProject1 {
       margin-left: -1px;
@@ -477,9 +820,91 @@ body {
   }
 
   #footer {
+    .container {
+      position: relative;
+      right: 100px;
+      bottom: 10px;
+    }
     img {
       position: relative;
-      right: 140px;
+      right: 30px;
     }
+  }
+  #header-about {
+    h1 {
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+
+  #about {
+    h1 {
+      font-size: 32px;
+    }
+  }
+
+  #values {
+    p {
+      width: 400px;
+    }
+  }
+
+  #weWork {
+    h1 {
+      margin-left: 90px;
+    }
+  }
+
+  #bussiness {
+    h3 {
+      font-size: 28px;
+      line-height: 38px;
+    }
+  }
+
+  #diverse-services {
+    h1 {
+      font-size: 28px;
+    }
+  }
+
+  #branding {
+    h2 {
+      font-size: 22px;
+    }
+    p {
+      position: relative;
+      right: 80px;
+    }
+    img {
+      width: 440px;
+      height: 340px;
+
+      position: relative;
+      right: 110px;
+    }
+
+    h3 {
+      font-size: 18px;
+      margin-bottom: -20px;
+      position: relative;
+      right: 10px;
+    }
+  }
+
+  #contact {
+    h1 {
+      font-size: 32px;
+      margin-top: 15px;
+      margin-bottom: 20px;
+    }
+  }
+  small {
+    margin-bottom: 30px;
+  }
+
+  #mapEmbed {
+    margin-top: 40px;
+    margin-bottom: 10px;
   }
 }

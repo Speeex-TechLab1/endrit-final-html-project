@@ -275,6 +275,262 @@ body {
   top: 40px;
 }
 
+#header-about h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 80px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  background: #ffbbe6;
+  background: linear-gradient(to right, #ffbbe6 0%, #5ccaff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#about {
+  background-color: white;
+  padding: 50px 0;
+}
+#about h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 75px;
+  color: #151a25;
+}
+#about h2 {
+  font-size: 42px;
+  line-height: 52px;
+  background: #5efce8;
+  background: linear-gradient(to right, #5efce8 0%, #736efe 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#about p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: #151a25;
+}
+
+#values {
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+#values h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 75px;
+  position: relative;
+}
+#values h1::before {
+  content: "CLEAN CODE";
+  font-size: 10px;
+  color: #ffbbe6;
+  position: absolute;
+  top: 60px;
+}
+#values h1::after {
+  content: url(/images/Mask\ group.png);
+  position: absolute;
+  top: -70px;
+  left: 600px;
+  z-index: 1;
+}
+#values h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+#values p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  width: 540px;
+  height: 90px;
+}
+#values img {
+  width: 600px;
+  height: 365px;
+  position: relative;
+  top: 40px;
+}
+
+#meetTeam {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+}
+#meetTeam h1 {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 65px;
+}
+#meetTeam h3 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 40px;
+}
+#meetTeam p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+#meetTeam img {
+  border-radius: 18px;
+  position: relative;
+  right: 50px;
+}
+#meetTeam span {
+  position: relative;
+}
+#meetTeam span::before {
+  content: url(/images/Rectangle\ 875.png);
+  position: absolute;
+  top: -120px;
+  right: -180px;
+}
+
+#weWork {
+  margin-top: 40px;
+  background-color: white;
+}
+#weWork h1 {
+  margin-right: 80px;
+}
+
+#form button {
+  width: 200px;
+  height: 70px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+#diverse-services {
+  background-image: url(/images/Meet.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65%;
+}
+#diverse-services h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 80px;
+  margin-top: 20%;
+  margin-bottom: 20%;
+  background: #ffbbe6;
+  background: linear-gradient(to right, #ffbbe6 0%, #5ccaff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#bussiness {
+  background-image: url(/images/Meet.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 65%;
+}
+#bussiness h3 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 80px;
+  background: #ffbbe6;
+  background: linear-gradient(to right, #ffbbe6 0%, #5ccaff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#branding {
+  margin-top: 120px;
+}
+#branding h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 70px;
+  background: #ffbbe6;
+  background: linear-gradient(to right, #ffbbe6 0%, #5ccaff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+#branding h2::before {
+  content: url(/images/01.png);
+  position: absolute;
+  left: -120px;
+  top: 20px;
+}
+#branding p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  color: white;
+  position: relative;
+  top: 40px;
+  right: 80px;
+}
+#branding img {
+  width: 600px;
+  height: 330px;
+}
+#branding h3 {
+  font-size: 45px;
+  font-weight: 500;
+  line-height: 70px;
+  color: white;
+}
+#branding .first-title {
+  position: relative;
+  left: 65px;
+}
+#branding .first-title::before {
+  content: url(/images/02.png);
+  position: absolute;
+  top: 12px;
+  left: -120px;
+}
+#branding .second-title {
+  position: relative;
+  left: 65px;
+}
+#branding .second-title::before {
+  content: url(/images/03.png);
+  position: absolute;
+  top: 12px;
+  left: -120px;
+}
+#branding .third-title {
+  position: relative;
+  left: 65px;
+}
+#branding .third-title::before {
+  content: url(/images/04.png);
+  position: absolute;
+  top: 12px;
+  left: -120px;
+}
+
+#contact h1 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 70px;
+  background: #ffbbe6;
+  background: linear-gradient(to right, #ffbbe6 0%, #5ccaff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#contact small {
+  color: white;
+  position: relative;
+  top: 40px;
+}
+#contact .graySmall {
+  color: gray;
+}
+
 @media (max-width: 600px) {
   #header h1 {
     margin-top: 50% !important;
@@ -314,18 +570,22 @@ body {
     position: absolute;
     left: 240%;
   }
+  #diverse .c1 {
+    position: relative;
+    right: 32px;
+  }
   #diverse .c-display-1 {
     display: none;
   }
   #story {
-    height: 148%;
+    height: 136%;
   }
   #story h2 {
     font-size: 28px;
     margin-top: -10px;
   }
   #story p {
-    width: 520px;
+    width: 450px;
     position: relative;
   }
   #story p::after {
@@ -339,12 +599,12 @@ body {
     display: flex;
   }
   .img-1 {
-    width: 230px !important;
-    height: 410px !important;
+    width: 190px !important;
+    height: 350px !important;
   }
   .img-2 {
-    width: 210px !important;
-    height: 410px !important;
+    width: 190px !important;
+    height: 350px !important;
   }
   .imgPos {
     position: relative;
@@ -354,10 +614,10 @@ body {
   #latest-news .row-calendar {
     display: flex;
     flex-direction: column;
-    width: 500px !important;
+    width: 420px !important;
     height: 420px !important;
     position: relative;
-    left: -32% !important;
+    left: -45% !important;
   }
   #latest-news h2 {
     font-size: 24px;
@@ -381,19 +641,88 @@ body {
     margin-top: 15px;
   }
   #latest-news img {
-    width: 440px;
+    width: 380px;
     position: relative;
     right: 50%;
     top: 8%;
   }
   #projects {
+    margin-bottom: -280px;
     height: 220%;
+  }
+  #projects h2 {
+    font-size: 28px;
+    position: relative;
+  }
+  #projects h2::before {
+    content: url(/images/arrow-LR.svg);
+    position: absolute;
+    top: 380%;
+  }
+  #projects p {
+    width: 450px;
   }
   #projects .imgProject1 {
     margin-left: -1px;
   }
+  #footer .container {
+    position: relative;
+    right: 100px;
+    bottom: 10px;
+  }
   #footer img {
     position: relative;
-    right: 140px;
+    right: 30px;
+  }
+  #header-about h1 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  #about h1 {
+    font-size: 32px;
+  }
+  #values p {
+    width: 400px;
+  }
+  #weWork h1 {
+    margin-left: 90px;
+  }
+  #bussiness h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+  #diverse-services h1 {
+    font-size: 28px;
+  }
+  #branding h2 {
+    font-size: 22px;
+  }
+  #branding p {
+    position: relative;
+    right: 80px;
+  }
+  #branding img {
+    width: 440px;
+    height: 340px;
+    position: relative;
+    right: 110px;
+  }
+  #branding h3 {
+    font-size: 18px;
+    margin-bottom: -20px;
+    position: relative;
+    right: 10px;
+  }
+  #contact h1 {
+    font-size: 32px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+  small {
+    margin-bottom: 30px;
+  }
+  #mapEmbed {
+    margin-top: 40px;
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=styles.css.map */
